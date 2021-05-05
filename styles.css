@@ -25,7 +25,7 @@ body {
   color: white;
 } */
 .main-header__brand {
-  color: white;
+  color: #ffac41;
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
@@ -45,11 +45,32 @@ body {
   list-style: none;
 }
 .main-nav__item {
-  color: white;
+  /* color: #ff1e56; */
   display: inline-block;
 }
 .main-nav__item a {
   text-decoration: none;
+  color: #ffac41;
+  margin: 0 20px;
+  font-weight: bold;
+  padding: 3px 0;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active {
   color: white;
-  margin: 0 16px;
+  border-bottom: 2px solid #ff1e56;
+}
+
+.main-nav__item--cta a {
+  color: black;
+  background: #ffac41;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: #ffac41;
+  background-color: white;
+  border: none;
 }
