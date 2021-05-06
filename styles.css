@@ -13,7 +13,7 @@ body {
 
 .main-header {
   background-color: black;
-  padding: 8px 30px;
+  padding: 20px 30px;
 }
 .main-header > div {
   display: inline-block;
@@ -73,4 +73,29 @@ body {
   color: #ffac41;
   background-color: white;
   border: none;
+}
+.first-section {
+  background-color: black;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.title-heading {
+  color: #ffac41;
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 53px;
+}
+.first-section-heading-div {
+  position: absolute;
+  top: 21%;
+  left: 20%;
+}
+.aProgrammer {
+  color: #ffac41;
+  text-align: center;
+  margin-top: 5px;
+  /* margin: 0 0 0 222px; */
+  font-size: 44px;
+  font-weight: thin;
 }
