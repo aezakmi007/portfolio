@@ -84,18 +84,33 @@ body {
   color: #ffac41;
   margin: 0 0 10px 0;
   text-align: center;
-  font-size: 53px;
+  font-size: 40px;
 }
 .first-section-heading-div {
   position: absolute;
-  top: 21%;
-  left: 20%;
+  top: 25%;
+  left: 3%;
+  text-align: left;
 }
 .aProgrammer {
   color: #ffac41;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 5px;
   /* margin: 0 0 0 222px; */
-  font-size: 44px;
+  font-size: 25px;
   font-weight: thin;
+}
+.images-div {
+  position: absolute;
+  top: 40%;
+  width: 50%;
+}
+.skills_images {
+  width: 189%;
+}
+.image-list-item {
+  display: inline-block;
+  margin-right: 24px;
+  padding: 0;
+  width: 20px;
 }
