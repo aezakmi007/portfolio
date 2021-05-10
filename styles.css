@@ -84,33 +84,38 @@ body {
   color: #ffac41;
   margin: 0 0 10px 0;
   text-align: center;
-  font-size: 40px;
+  font-size: 84px;
 }
 .first-section-heading-div {
   position: absolute;
-  top: 25%;
-  left: 3%;
-  text-align: left;
+  top: 16%;
+  left: 5%;
+  text-align: center;
 }
 .aProgrammer {
   color: #ffac41;
   /* text-align: center; */
   margin-top: 5px;
   /* margin: 0 0 0 222px; */
-  font-size: 25px;
+  font-size: 66px;
   font-weight: thin;
+}
+.aProgrammer .span {
+  text-decoration: underline #ffac41;
+  text-decoration-thickness: 1px;
 }
 .images-div {
   position: absolute;
-  top: 40%;
+  top: 51%;
   width: 50%;
+  left: 26%;
 }
 .skills_images {
   width: 189%;
 }
 .image-list-item {
   display: inline-block;
-  margin-right: 24px;
+  margin-right: 65px;
   padding: 0;
-  width: 20px;
+  width: 48px;
 }
